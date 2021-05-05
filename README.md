@@ -10,10 +10,20 @@ List of dependencies and required modules
 ## Preset
 
 Set up Flask-related environment variables:
-
+For Linux and Mac:
 ```bash
 export FLASK_APP=ccatalogue
 export FLASK_ENV=development
+```
+For Windows cmd, use set instead of export:
+```bash
+set FLASK_APP=ccatalogue
+set FLASK_ENV=development
+```
+For Windows PowerShell, use $env: instead of export:
+```bash
+$env FLASK_APP=ccatalogue
+$env FLASK_ENV=development
 ```
 
 Initialize the database
